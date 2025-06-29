@@ -79,7 +79,7 @@ Non-functional requirements describe how the system should behave. They refer to
 - The application should be scalable to support thousands of concurrent users (Scalability).
 - The user interface must be accessible on both mobile and desktop devices (Usability).
 
-# Use Case Diagrams [https://drive.google.com/file/d/111q9PB30XXtnVYtR67ScXEXmaIKS8_WJ/view?usp=sharing]
+# Use Case Diagrams (./alx-booking-uc.png)
 
 📘 What is a Use Case Diagram?
 A Use Case Diagram is a visual representation of the interactions between users (actors) and a system. It shows the functional requirements of a system and highlights what the system should do from a user’s perspective. Use case diagrams are part of the Unified Modeling Language (UML) and are commonly used during the early phases of software development, especially in requirement analysis.
@@ -121,8 +121,9 @@ Acts as a starting point for identifying and organizing functional requirements.
 ✅ Visual Simplicity
 Easily illustrates complex processes in a clear and intuitive way.
 
-Use Case in a Booking System [https://drive.google.com/file/d/111q9PB30XXtnVYtR67ScXEXmaIKS8_WJ/view?usp=sharing]
-In a booking management platform like AirBnB, some typical use cases include:
+Use Case in a Booking System 
+In a booking management platform![alx-booking-uc](https://github.com/user-attachments/assets/ab45978f-fee6-498c-af62-6efb608128c2)
+ like AirBnB, some typical use cases include:
 - Guest: Search for Properties, Make a Reservation, Cancel Booking
 - Host: List Property, Update Availability, View Bookings
 - Admin: Approve Listings, Manage Users
