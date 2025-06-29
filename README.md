@@ -69,7 +69,7 @@ Users should be able to search for available properties based on location, date,
 
 ⚙️ Non-functional Requirements
 📘 Definition:
-Non-functional requirements describe how the system should behave. They refer to the quality attributes, performance standards, or operational constraints of the system, rather than specific behaviors. ()
+Non-functional requirements describe how the system should behave. They refer to the quality attributes, performance standards, or operational constraints of the system, rather than specific behaviors. (How the system should behave)
 
 🛠️ Examples in a Booking Management System:
 
@@ -78,3 +78,52 @@ Non-functional requirements describe how the system should behave. They refer to
 - All user data must be encrypted in transit and at rest (Security).
 - The application should be scalable to support thousands of concurrent users (Scalability).
 - The user interface must be accessible on both mobile and desktop devices (Usability).
+
+# Use Case Diagrams [https://drive.google.com/file/d/111q9PB30XXtnVYtR67ScXEXmaIKS8_WJ/view?usp=sharing]
+
+📘 What is a Use Case Diagram?
+A Use Case Diagram is a visual representation of the interactions between users (actors) and a system. It shows the functional requirements of a system and highlights what the system should do from a user’s perspective. Use case diagrams are part of the Unified Modeling Language (UML) and are commonly used during the early phases of software development, especially in requirement analysis.
+
+Each use case represents a specific goal the user wants to achieve using the system, such as “Book a Property” or “List a New Property.”
+
+🧠 Benefits of Use Case Diagrams
+✅ Clarifies System Scope
+Helps define what the system will (and won’t) do, avoiding scope creep.
+
+✅ Identifies Key User Interactions
+Makes it easier to understand who interacts with the system and what they can do.
+
+✅ Improves Communication
+Serves as a common language between developers, business analysts, and stakeholders.
+
+✅ Supports Requirement Gathering
+Acts as a starting point for identifying and organizing functional requirements.
+
+✅ Visual Simplicity
+Easily illustrates complex processes in a clear and intuitive way.
+
+# Use Case Diagrams.
+
+📘 What is a Use Case Diagram?
+A Use Case Diagram is a visual representation of the interactions between users (actors) and a system. It shows the functional requirements of a system and highlights what the system should do from a user’s perspective. Use case diagrams are part of the Unified Modeling Language (UML) and are commonly used during the early phases of software development, especially in requirement analysis.
+
+Each use case represents a specific goal the user wants to achieve using the system, such as “Book a Property” or “List a New Property.”
+
+ Benefits of Use Case Diagrams
+✅ Clarifies System Scope
+Helps define what the system will (and won’t) do, avoiding scope creep.
+✅ Identifies Key User Interactions
+Makes it easier to understand who interacts with the system and what they can do.
+✅ Improves Communication
+Serves as a common language between developers, business analysts, and stakeholders.
+✅ Supports Requirement Gathering
+Acts as a starting point for identifying and organizing functional requirements.
+✅ Visual Simplicity
+Easily illustrates complex processes in a clear and intuitive way.
+
+Use Case in a Booking System [https://drive.google.com/file/d/111q9PB30XXtnVYtR67ScXEXmaIKS8_WJ/view?usp=sharing]
+In a booking management platform like AirBnB, some typical use cases include:
+- Guest: Search for Properties, Make a Reservation, Cancel Booking
+- Host: List Property, Update Availability, View Bookings
+- Admin: Approve Listings, Manage Users
+
