@@ -128,3 +128,51 @@ In a booking management platform![alx-booking-uc](https://github.com/user-attach
 - Host: List Property, Update Availability, View Bookings
 - Admin: Approve Listings, Manage Users
 
+
+# Acceptance Criteria
+📘 What is Acceptance Criteria?
+Acceptance Criteria (AC) are specific, measurable conditions that a software feature or user story must meet to be considered complete and acceptable by stakeholders. It acts as a checklist that ensures the delivered functionality meets the original intent and expectations.
+
+🛠️ How to Establish Acceptance Criteria
+To create effective acceptance criteria:
+
+Collaborate with stakeholders – Work closely with clients, product owners, or users to understand their expectations.
+
+Use clear and simple language – Avoid technical jargon unless necessary; write for both business and technical audiences.
+Follow a structured format – Common formats include:
+Gherkin syntax (Given–When–Then)
+Checklist format (bullet points)
+Make it testable – Each criterion should be measurable and able to be confirmed through functional or user acceptance testing.
+
+🔍 Importance of Acceptance Criteria in Requirement Analysis
+✅ Clarifies Scope: It removes ambiguity by defining exactly what “done” means for each feature or task.
+✅ Guides Development: Developers use it as a target when designing and coding features.
+✅ Improves Communication: It creates a shared understanding between clients, developers, testers, and business analysts.
+✅ Supports Testing: QA/testers use acceptance criteria to write user acceptance tests (UAT).
+✅ Reduces Rework: Prevents misunderstandings that can lead to missing functionality or redesigns.
+
+🧾 Feature: Create Account
+🎯 User Story:
+As a new user, I want to create an account so I can log in and use the platform’s features.
+
+✅ Acceptance Criteria (Given–When–Then):
+- Given a new user visits the registration page,
+When they enter all required fields and submit the form,
+Then the system creates the account and redirects them to their dashboard.
+
+- Given a user tries to register with an existing email,
+When the form is submitted,
+Then the system shows a validation error message.
+
+- Given the user leaves the required fields blank,
+When they click "Sign Up",
+Then the form highlights the missing inputs.
+
+✅ Acceptance Criteria (Checklist Format):
+ Form includes name, email, password, and optional phone number.
+
+ Password must meet security criteria (e.g., 8+ characters, special symbol).
+
+ Duplicate email addresses are rejected.
+ The system validates input before submission.
+ Successful registration redirects the user and sends a welcome email.
