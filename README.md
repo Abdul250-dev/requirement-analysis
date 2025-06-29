@@ -47,3 +47,34 @@ Requirement Analysis involves several interconnected activities that ensure soft
 - Prevents misunderstandings that could lead to project delays or product failures.
 
 📎 Together, these five activities ensure that the software is designed to meet real needs, reducing the risk of rework, cost overruns, and user dissatisfaction.
+
+# Types of Requirements.
+
+Functional vs. Non-functional Requirements
+
+In software engineering, requirements are generally categorized into two main types: Functional Requirements and Non-functional Requirements. Both are essential to the successful design and implementation of a system, but they address different aspects
+
+✅ Functional Requirements
+
+📘 Definition:
+Functional requirements describe what the system should do. They define specific behaviors, features, or functions the software must perform to meet user needs and achieve business objectives. (What the system should do)
+
+🛠️ Examples in a Booking Management System:
+Users should be able to search for available properties based on location, date, and number of guests.
+
+- A guest can create an account and log in securely.
+- A host should be able to list a new property with details such as price, photos, and availability.
+- The system should send a confirmation email after a booking is made.
+- Users can cancel or modify reservations within the allowed policy period.
+
+⚙️ Non-functional Requirements
+📘 Definition:
+Non-functional requirements describe how the system should behave. They refer to the quality attributes, performance standards, or operational constraints of the system, rather than specific behaviors. ()
+
+🛠️ Examples in a Booking Management System:
+
+- The system should respond to search queries within 2 seconds (Performance).
+- The platform must be available 99.9% of the time during a calendar year (Availability).
+- All user data must be encrypted in transit and at rest (Security).
+- The application should be scalable to support thousands of concurrent users (Scalability).
+- The user interface must be accessible on both mobile and desktop devices (Usability).
